@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web prog II | Mercancang Template Sederhana dengan codeigniter</title>
+    <link rel= 'stylesheet' type="text/css" href="<?php echo base_url() ?>assets/css/stylebuku.css">
 </head>
 <body>
-    
-</body>
-</html>
+    <div id="wrapper">
+        <header>
+            <hgroup>
+                <h1>RentalBuku.net</h1>
+                <h3>Membuat Template Sederhana Dengan codeigniter</h3>
+            </hgroup>
+            <nav>
+                <ul>
+                    <li><a href="<?php echo base_url() . 'Web'?>">Home</a></li>
+                    <li><a href="<?php echo base_url() . 'Web/about '?>">About</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </header>
