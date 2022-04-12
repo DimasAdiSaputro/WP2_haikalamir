@@ -3,7 +3,7 @@ class Matakuliah extends CI_Controller
 {
   public function index()
   {
-    $this->load->view('view_form_matakuliah');
+    $this->load->view('view-form-matakuliah');
   }
   public function cetak()
   {
@@ -26,14 +26,14 @@ class Matakuliah extends CI_Controller
       ]
     );
     if ($this->form_validation->run() != true) {
-      $this->load->view('view_form_matakuliah');
+      $this->load->view('view-form-matakuliah');
     } else {
       $data = [
-        'Kode' => $this->input->post('kode'),
-        'Nama' => $this->input->post('nama'),
-        'Sks' => $this->input->post('sks')
+        'kode' => $this->input->post('kode'),
+        'nama' => $this->input->post('nama'),
+        'sks' => $this->input->post('sks')
       ];
-      $this->load->view('view_data_matakuliah', $data);
+      $this->load->view('view-data-matakuliah', $data);
     }
   }
 }
