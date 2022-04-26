@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input Data Siswa</title>
 </head>
-<body bgcolor="orens">
+<body bgcolor="White">
 <?php echo validation_errors(); ?>
 <form action="<?= base_url('datasiswa/cetak'); ?>"method="post">
 <th colspan="3" align="center"><h2>Implementasi Model Prototipe Pada Digital Learning Management System (Di-Lemas)</h2></th>
