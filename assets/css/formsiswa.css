@@ -1,0 +1,29 @@
+body{
+    background: rgb(0, 143, 239);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size:15px;
+}
+
+#Form{
+    margin: 0 auto;
+    background-color: rgb(244, 243, 243);
+    width: 700px;
+    height: 700px;
+    border: black solid 1px;
+    text-align: center;
+}
+#Form header{
+    background: #0ad1a66b;
+    padding: 20px;
+}
+#Form h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18;
+    text-decoration: underline;
+    text-align: center;
+}
+#Form footer{
+    background: #0ad1a66b;
+    padding: 100px;
+}

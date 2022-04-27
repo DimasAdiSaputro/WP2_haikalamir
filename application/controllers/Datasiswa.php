@@ -3,7 +3,7 @@ class DataSiswa extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('tampilan-form-siswa');
+        $this->load->view('tampilan_formsiswa');
     }
 
     public function cetak()
@@ -39,7 +39,7 @@ class DataSiswa extends CI_Controller
         );
 
         if ($this->form_validation->run() != true) {
-            $this->load->view('tampilan-form-siswa');
+            $this->load->view('tampilan_formsiswa');
         } else {
             $data = [
                 'nama' => $this->input->post('nama'),
@@ -50,7 +50,7 @@ class DataSiswa extends CI_Controller
                 'ttl' => $this->input->post('ttl'),
                 'agama' => $this->input->post('agama'),
             ];
-            $this->load->view('tampilan-data-datasiswa', $data);
+            $this->load->view('tampilan_datasiswa', $data);
         }
     }
 }
