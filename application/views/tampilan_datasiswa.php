@@ -19,7 +19,7 @@ error_reporting (0);
     <tr><td>Jeniskel</td><td>:</td><td><?= $_POST['jeniskel']; ?></td></tr>
     <tr><td>TTL</td><td>:</td><td><?=$_POST['ttl']; ?></td></tr>
     <tr><td>Agama</td><td>:</td><td><?= $_POST['agama']; ?></td></tr> 
-    <tr><td colspan="3"><a href="<?= base_url('datasiswa'); ?>">Input form pada point 2</a>
+    <tr><td colspan="3"><a href="<?= base_url('datasiswa'); ?>">kembali Input </a>
 </table>
 </body>
 </html>
