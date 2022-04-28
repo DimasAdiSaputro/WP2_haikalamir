@@ -18,8 +18,8 @@
         <table width="500" align="center" border="1">
     <tr><th colspan="3">Pengolahan Data siswa</th></tr>
     <tr><td>Nama</td><td><input type="text" name="nama" size="25" maxlength="50" placeholder="Masukan nama">
-    <tr><td>NIS </td><td><input type=r="text" name="nis" size="10"/></td></tr>
-    <tr><td>Kelas </td><td><input type=r="text" name="kelas" size="10"/></td></tr>
+    <tr><td>NIS </td><td><input type="number" name="nis" size="10"/></td></tr>
+    <tr><td>Kelas </td><td><input type="Number" name="kelas" size="10"/></td></tr>
     <tr><td>Alamat</td><td><textarea name="alamat" rows='5' cols='40'></textarea>
     <tr><td>Jenis Kelamin</td><td>
     <input type="radio" name="jeniskel" value="laki-laki">laki-laki
