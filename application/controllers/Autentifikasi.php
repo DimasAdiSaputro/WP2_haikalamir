@@ -42,7 +42,8 @@ class Autentifikasi extends CI_Controller{
                 if($user['is_active'] == 1)
                 {
                     // cek password
-                    if(password_verify($password, $user['password']))
+                    $md5pass = md5($password);
+                    if($md5pass == $user['password'])
                     {
                         $data = [
                             'email' => $user['email'],
